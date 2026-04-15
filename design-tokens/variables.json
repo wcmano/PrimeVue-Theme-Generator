@@ -1,0 +1,9 @@
+{
+  "source": "primeui-figma-plugin-v4",
+  "aura/variable-collection": {
+    "opacity": {
+      "$type": "number",
+      "$value": 6
+    }
+  }
+}
