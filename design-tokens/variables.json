@@ -1,9 +1,13 @@
 {
   "source": "primeui-figma-plugin-v4",
-  "aura/variable-collection": {
-    "opacity": {
-      "$type": "number",
-      "$value": 6
+  "aura/button": {
+    "button": {
+      "bg": {
+        "primary": {
+          "$type": "color",
+          "$value": "#4388eeff"
+        }
+      }
     }
   }
 }
