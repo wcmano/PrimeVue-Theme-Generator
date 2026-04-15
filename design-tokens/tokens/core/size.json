@@ -1,0 +1,11 @@
+{
+  "size": {
+    "spacing": {
+      "2": { "$value": "8px", "$type": "dimension" },
+      "4": { "$value": "16px", "$type": "dimension" }
+    },
+    "radius": {
+      "md": { "$value": "6px", "$type": "dimension" }
+    }
+  }
+}

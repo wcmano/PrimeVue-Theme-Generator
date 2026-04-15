@@ -1,0 +1,17 @@
+{
+  "button": {
+    "bg": {
+      "primary": { "$value": "{color.primary.bg}", "$type": "color" }
+    },
+    "text": {
+      "primary": { "$value": "{color.primary.text}", "$type": "color" }
+    },
+    "padding": {
+      "x": { "$value": "{size.spacing.4}", "$type": "dimension" },
+      "y": { "$value": "{size.spacing.2}", "$type": "dimension" }
+    },
+    "radius": {
+      "default": { "$value": "{size.radius.md}", "$type": "dimension" }
+    }
+  }
+}

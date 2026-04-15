@@ -1,0 +1,29 @@
+{
+  "name": "primevue-theme-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run tokens:build && vite",
+    "build": "npm run tokens:build && vite build",
+    "preview": "vite preview",
+    "tokens:build": "style-dictionary build --config design-tokens/style-dictionary.config.js",
+    "tokens:watch": "style-dictionary build --config design-tokens/style-dictionary.config.js --watch"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.2.5",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.2.5",
+    "tailwind-merge": "^3.5.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "style-dictionary": "^5.4.0",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-primeui": "^0.3.4",
+    "vite": "^6.0.5"
+  }
+}

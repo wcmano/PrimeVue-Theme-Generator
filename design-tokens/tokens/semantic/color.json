@@ -1,0 +1,8 @@
+{
+  "color": {
+    "primary": {
+      "bg": { "$value": "{color.blue.500}", "$type": "color" },
+      "text": { "$value": "{color.white}", "$type": "color" }
+    }
+  }
+}
