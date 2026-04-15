@@ -5,7 +5,7 @@
       "bg": {
         "primary": {
           "$type": "color",
-          "$value": "#4388eeff"
+          "$value": "#13e000ff"
         }
       }
     }
